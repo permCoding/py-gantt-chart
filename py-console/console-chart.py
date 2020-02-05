@@ -1,3 +1,4 @@
+import os
 
 f = open('input.txt', 'r')
 lines = f.read().split('\n')
@@ -64,6 +65,10 @@ gant += spa*3 + ''.join([str(i) for i in range(10)]) + '\n'
 f = open('output.txt', 'w', encoding='utf-8')
 f.write(gant)
 f.close()
+
+print(gant)
+
+os.system('pause')
 
 
 #
